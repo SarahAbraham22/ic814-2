@@ -1,0 +1,113 @@
+:root{
+    background-color: black;
+}
+.casts-page{
+    background-color: black;
+}
+.heading {
+    width: 92.5%;
+    height: 500px;
+    background-image: url('./images/flight1copy.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 47px;
+    margin-right: 47px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.heading h1{
+    padding-top: 200px;
+    font-size: 100px;
+}
+
+.mid-container{
+    width: 100%; 
+    background-color: black;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.flightpic {
+    background-color: rgb(45, 23, 8);
+    width: 79%;
+    min-height: 100vh;
+    padding: 100px;
+    margin-right: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.cast-member {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff; 
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.cast-member img {
+    border-radius: 10px;
+    width: 100%; 
+    height: 200px;
+    object-fit: cover; 
+}
+
+.cast-member h3 {
+    margin: 10px 0;
+}
+
+.cast-member p {
+    display: none; 
+    margin-top: 10px;
+}
+
+.cast-member:hover {
+    transform: scale(1.2); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.cast-member:hover p {
+    display: block; 
+}
+
+.back-button-container {
+    position: absolute;
+    top: 40px; /* Distance from the top */
+    left: 60px; 
+    z-index: 10; 
+}
+
+.back-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
+
+
