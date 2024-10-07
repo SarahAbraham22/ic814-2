@@ -69,7 +69,7 @@ const filteredEpisodes = episodes.filter((episode) => {
             type="text"
             placeholder="Search episodes..."
             value={searchQuery}
-            onChange={handleSearchChange} // Bind input to search query
+            onChange={handleSearchChange} 
           />
         </div>
       </div>
